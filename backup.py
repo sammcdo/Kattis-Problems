@@ -28,8 +28,15 @@ for filename in os.listdir(folder):
 
 # Get all successful submissions
 stats = kt.stats()
-print(stats[0])
-print(kt.problem(stats[0]["id"]))
+probs = kt.problems()
+
+template = ""
+with open("md_template.md") as obj:
+    template = obj.read()
+
+# print(stats[0])
+# print(kt.problem(stats[0]["id"]))
+
 for problem in stats:
     if problem["test_case_passed"] != problem["test_case_full"]:
         print("Not fully completed, not including", problem["name"])
@@ -46,15 +53,11 @@ for problem in stats:
                 code = code.content.decode()
                 obj.write(code)
 
-            try:
-                p_info = kt.problem(problem["id"])[0]
+            target = problem["id"]
+            for i in probs:
+                id = i["link"].split("/")[-1]
+                if id == target:
+                    i["percent"] = round(i["acc"] / i["total"] * 100, 2)
 
-                with open(path+"/"+problem["id"]+".md", 'w') as obj:
-                    p_info["text"] = p_info["text"].replace("$", "**")
-                    obj.write(p_info["text"])
-            except Exception as e:
-                print("Exception with problem", problem["id"])
-                print(e)
-                print()
-
-
+                    with open(path+"/"+problem["id"]+".md", 'w') as obj:
+                        obj.write(template.format(**i))

@@ -1,97 +1,20 @@
-In the United States of America, telephone numbers within an
-    area code consist of seven digits: the prefix number is the
-    first three digits and the line number is the last four digits.
-    Traditionally, the **555**
-    prefix number has been used to provide directory information
-    and assistance as in the following examples:
+# FYI
 
-
-555-1212
-
-
-555-9876
-
-
-555-5000
-
-
-555-7777
-
-
-Telephone company switching hardware would detect the
-    **555** prefix and route the
-    call to a directory information operator. Nowadays, telephone
-    switching is done digitally and somewhere along the line a
-    computer decides where to route calls.
-For this problem, write a program that determines if a
-    supplied seven-digit telephone number should be routed to the
-    directory information operator, that is, the prefix number is
-    **555**.
-Input
-The single line of input contains a single integer
-    **n** (**1000000 \le n \le 9999999**), which is
-    a telephone number.
-Output
-Output a single integer, which is **1** if the number should be routed to
-    the directory information operator, or **0** if the number should not be routed
-    to the directory information operator.
-
-
-Sample Input 1
-Sample Output 1
-
-
-
-5551212
-
-
-
-1
-
-
-
-
-
-
-Sample Input 2
-Sample Output 2
-
-
-
-5519876
-
-
-
-0
-
-
-
-
-
-
-Sample Input 3
-Sample Output 3
-
-
-
-5055555
-
-
-
-0
-
-
-
-
-
-
-Sample Input 4
-Sample Output 4
-
-
-
-5550000
-
-
-
-1
+<table>
+    <tr>
+        <td>Category</td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>Diffulty</td>
+        <td>1.3</td>
+    </tr>
+    <tr>
+        <td>Acceptance</td>
+        <td>52.93 %</td>
+    </tr>
+    <tr>
+        <td>Link</td>
+        <td>https://open.kattis.com/problems/fyi</td>
+    </tr>
+</table>

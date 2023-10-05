@@ -1,37 +1,20 @@
-Given two integers **A**
-    and **B**, compute their
-    greatest common divisor.
-Input
-The first and only line contains the integers **A** and **B** (**1
-    \le A, B \le 10^9**).
-Output
-Output a single integer – the greatest common divisor of
-    **A** and **B**.
+# GCD
 
-
-Sample Input 1
-Sample Output 1
-
-
-
-5 7
-
-
-
-1
-
-
-
-
-
-
-Sample Input 2
-Sample Output 2
-
-
-
-10 15
-
-
-
-5
+<table>
+    <tr>
+        <td>Category</td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>Diffulty</td>
+        <td>1.6</td>
+    </tr>
+    <tr>
+        <td>Acceptance</td>
+        <td>51.76 %</td>
+    </tr>
+    <tr>
+        <td>Link</td>
+        <td>https://open.kattis.com/problems/gcd</td>
+    </tr>
+</table>
