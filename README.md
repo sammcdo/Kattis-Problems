@@ -6,11 +6,12 @@ while preparing for competitive programming competitions.
 ### Problem Difficulty
 ![](plot.png)
 <table>
-<th>
+<thead>
 <td>Name</td>
 <td>Difficulty</td>
 <td>Link</td>
-</th>
+</thead>
+<tbody>
 
 <tr>
 <td>99 Problems</td>

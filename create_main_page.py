@@ -14,11 +14,12 @@ while preparing for competitive programming competitions.
 
 table = """
 <table>
-<th>
+<thead>
 <td>Name</td>
 <td>Difficulty</td>
 <td>Link</td>
-</th>
+</thead>
+<tbody>
 """
 
 tableFormat = """
@@ -27,6 +28,11 @@ tableFormat = """
 <td>{difficulty}</td>
 <td>{link}</td>
 </tr>
+"""
+
+tableEnd = """
+</tbody>
+</table>
 """
 
 # Log in to kattis
