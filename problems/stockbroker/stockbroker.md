@@ -1,20 +1,20 @@
-# Piece of Cake!
+# Daydreaming Stockbroker
 
 <table>
     <tr>
         <td>Category</td>
-        <td>Easy</td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>1.4</td>
+        <td>3.5</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>61.44 %</td>
+        <td>29.67 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/pieceofcake2</td>
+        <td>https://open.kattis.com/problems/stockbroker</td>
     </tr>
 </table>

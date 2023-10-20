@@ -1,4 +1,4 @@
-# Piece of Cake!
+# Ultimate Binary Watch
 
 <table>
     <tr>
@@ -7,14 +7,14 @@
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>1.4</td>
+        <td>1.8</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>61.44 %</td>
+        <td>39.9 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/pieceofcake2</td>
+        <td>https://open.kattis.com/problems/ultimatebinarywatch</td>
     </tr>
 </table>

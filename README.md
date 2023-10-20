@@ -14,78 +14,6 @@ while preparing for competitive programming competitions.
 <tbody>
 
 <tr>
-<td>Trik</td>
-<td>1.4</td>
-<td>https://open.kattis.com/problems/trik</td>
-</tr>
-
-<tr>
-<td>Turn It Up!</td>
-<td>1.6</td>
-<td>https://open.kattis.com/problems/skruop</td>
-</tr>
-
-<tr>
-<td>Two-sum</td>
-<td>1.3</td>
-<td>https://open.kattis.com/problems/twosum</td>
-</tr>
-
-<tr>
-<td>Unique Dice</td>
-<td>5.1</td>
-<td>https://open.kattis.com/problems/uniquedice</td>
-</tr>
-
-<tr>
-<td>Veci</td>
-<td>1.9</td>
-<td>https://open.kattis.com/problems/veci</td>
-</tr>
-
-<tr>
-<td>Velkomin!</td>
-<td>1.1</td>
-<td>https://open.kattis.com/problems/velkomin</td>
-</tr>
-
-<tr>
-<td>Viðsnúningur</td>
-<td>1.2</td>
-<td>https://open.kattis.com/problems/vidsnuningur</td>
-</tr>
-
-<tr>
-<td>Warehouse</td>
-<td>2.2</td>
-<td>https://open.kattis.com/problems/warehouse</td>
-</tr>
-
-<tr>
-<td>Which is Greater?</td>
-<td>1.4</td>
-<td>https://open.kattis.com/problems/whichisgreater</td>
-</tr>
-
-<tr>
-<td>Who wins?</td>
-<td>2.2</td>
-<td>https://open.kattis.com/problems/vemvinner</td>
-</tr>
-
-<tr>
-<td>Zamka</td>
-<td>1.4</td>
-<td>https://open.kattis.com/problems/zamka</td>
-</tr>
-
-<tr>
-<td>Óvissa</td>
-<td>1.2</td>
-<td>https://open.kattis.com/problems/ovissa</td>
-</tr>
-
-<tr>
 <td>99 Problems</td>
 <td>2.9</td>
 <td>https://open.kattis.com/problems/99problems</td>
@@ -110,8 +38,14 @@ while preparing for competitive programming competitions.
 </tr>
 
 <tr>
+<td>Alchemy</td>
+<td>7.8</td>
+<td>https://open.kattis.com/problems/alchemy2</td>
+</tr>
+
+<tr>
 <td>Almost Sorted</td>
-<td>8.5</td>
+<td>8.6</td>
 <td>https://open.kattis.com/problems/almostsorted2</td>
 </tr>
 
@@ -141,19 +75,19 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Avion</td>
-<td>1.4</td>
+<td>1.5</td>
 <td>https://open.kattis.com/problems/avion</td>
 </tr>
 
 <tr>
 <td>Bachet's Game</td>
-<td>3.9</td>
+<td>3.8</td>
 <td>https://open.kattis.com/problems/bachetsgame</td>
 </tr>
 
 <tr>
 <td>Basketball One-on-One</td>
-<td>1.6</td>
+<td>1.5</td>
 <td>https://open.kattis.com/problems/basketballoneonone</td>
 </tr>
 
@@ -183,7 +117,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>BizzFuzz</td>
-<td>4.4</td>
+<td>4.6</td>
 <td>https://open.kattis.com/problems/bizzfuzz</td>
 </tr>
 
@@ -207,7 +141,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Cetvrta</td>
-<td>1.4</td>
+<td>1.5</td>
 <td>https://open.kattis.com/problems/cetvrta</td>
 </tr>
 
@@ -245,6 +179,12 @@ while preparing for competitive programming competitions.
 <td>Cryptographer's Conundrum</td>
 <td>1.5</td>
 <td>https://open.kattis.com/problems/conundrum</td>
+</tr>
+
+<tr>
+<td>Daydreaming Stockbroker</td>
+<td>3.5</td>
+<td>https://open.kattis.com/problems/stockbroker</td>
 </tr>
 
 <tr>
@@ -309,7 +249,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Filip</td>
-<td>1.4</td>
+<td>1.5</td>
 <td>https://open.kattis.com/problems/filip</td>
 </tr>
 
@@ -333,7 +273,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Framtíðar FIFA</td>
-<td>1.3</td>
+<td>1.2</td>
 <td>https://open.kattis.com/problems/fifa</td>
 </tr>
 
@@ -351,7 +291,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Graduation</td>
-<td>2.2</td>
+<td>2.3</td>
 <td>https://open.kattis.com/problems/skolavslutningen</td>
 </tr>
 
@@ -369,7 +309,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Hangman</td>
-<td>1.7</td>
+<td>1.6</td>
 <td>https://open.kattis.com/problems/hangman</td>
 </tr>
 
@@ -417,13 +357,13 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>IsItHalloween.com</td>
-<td>1.5</td>
+<td>1.4</td>
 <td>https://open.kattis.com/problems/isithalloween</td>
 </tr>
 
 <tr>
 <td>Jack-O'-Lantern Juxtaposition</td>
-<td>1.2</td>
+<td>1.3</td>
 <td>https://open.kattis.com/problems/jackolanternjuxtaposition</td>
 </tr>
 
@@ -447,7 +387,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Leggja saman</td>
-<td>1.2</td>
+<td>1.3</td>
 <td>https://open.kattis.com/problems/leggjasaman</td>
 </tr>
 
@@ -501,13 +441,13 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Not Amused</td>
-<td>2.8</td>
+<td>2.7</td>
 <td>https://open.kattis.com/problems/notamused</td>
 </tr>
 
 <tr>
 <td>Odd Echo</td>
-<td>1.4</td>
+<td>1.3</td>
 <td>https://open.kattis.com/problems/oddecho</td>
 </tr>
 
@@ -645,7 +585,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Take Two Stones</td>
-<td>1.5</td>
+<td>1.4</td>
 <td>https://open.kattis.com/problems/twostones</td>
 </tr>
 
@@ -683,4 +623,82 @@ while preparing for competitive programming competitions.
 <td>Triangle Area</td>
 <td>1.4</td>
 <td>https://open.kattis.com/problems/triarea</td>
+</tr>
+
+<tr>
+<td>Trik</td>
+<td>1.4</td>
+<td>https://open.kattis.com/problems/trik</td>
+</tr>
+
+<tr>
+<td>Turn It Up!</td>
+<td>1.6</td>
+<td>https://open.kattis.com/problems/skruop</td>
+</tr>
+
+<tr>
+<td>Two-sum</td>
+<td>1.3</td>
+<td>https://open.kattis.com/problems/twosum</td>
+</tr>
+
+<tr>
+<td>Ultimate Binary Watch</td>
+<td>1.8</td>
+<td>https://open.kattis.com/problems/ultimatebinarywatch</td>
+</tr>
+
+<tr>
+<td>Unique Dice</td>
+<td>5.1</td>
+<td>https://open.kattis.com/problems/uniquedice</td>
+</tr>
+
+<tr>
+<td>Veci</td>
+<td>1.9</td>
+<td>https://open.kattis.com/problems/veci</td>
+</tr>
+
+<tr>
+<td>Velkomin!</td>
+<td>1.1</td>
+<td>https://open.kattis.com/problems/velkomin</td>
+</tr>
+
+<tr>
+<td>Viðsnúningur</td>
+<td>1.2</td>
+<td>https://open.kattis.com/problems/vidsnuningur</td>
+</tr>
+
+<tr>
+<td>Warehouse</td>
+<td>2.2</td>
+<td>https://open.kattis.com/problems/warehouse</td>
+</tr>
+
+<tr>
+<td>Which is Greater?</td>
+<td>1.4</td>
+<td>https://open.kattis.com/problems/whichisgreater</td>
+</tr>
+
+<tr>
+<td>Who wins?</td>
+<td>2.2</td>
+<td>https://open.kattis.com/problems/vemvinner</td>
+</tr>
+
+<tr>
+<td>Zamka</td>
+<td>1.4</td>
+<td>https://open.kattis.com/problems/zamka</td>
+</tr>
+
+<tr>
+<td>Óvissa</td>
+<td>1.2</td>
+<td>https://open.kattis.com/problems/ovissa</td>
 </tr>
