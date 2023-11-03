@@ -14,6 +14,30 @@ while preparing for competitive programming competitions.
 <tbody>
 
 <tr>
+<td>SMIL</td>
+<td>1.6</td>
+<td>https://open.kattis.com/problems/smil</td>
+</tr>
+
+<tr>
+<td>Seven Wonders</td>
+<td>1.5</td>
+<td>https://open.kattis.com/problems/sevenwonders</td>
+</tr>
+
+<tr>
+<td>Shattered Cake</td>
+<td>1.5</td>
+<td>https://open.kattis.com/problems/shatteredcake</td>
+</tr>
+
+<tr>
+<td>Simple Arithmetic</td>
+<td>4.3</td>
+<td>https://open.kattis.com/problems/simplearithmetic</td>
+</tr>
+
+<tr>
 <td>Solving for Carrots</td>
 <td>1.4</td>
 <td>https://open.kattis.com/problems/carrots</td>
@@ -27,7 +51,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Spavanac</td>
-<td>1.4</td>
+<td>1.5</td>
 <td>https://open.kattis.com/problems/spavanac</td>
 </tr>
 
@@ -51,7 +75,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Stuck In A Time Loop</td>
-<td>1.3</td>
+<td>1.4</td>
 <td>https://open.kattis.com/problems/timeloop</td>
 </tr>
 
@@ -92,6 +116,12 @@ while preparing for competitive programming competitions.
 </tr>
 
 <tr>
+<td>The Dragon of Loowater</td>
+<td>2.6</td>
+<td>https://open.kattis.com/problems/loowater</td>
+</tr>
+
+<tr>
 <td>Ticket Draw</td>
 <td>6.7</td>
 <td>https://open.kattis.com/problems/tickets</td>
@@ -117,7 +147,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Turn It Up!</td>
-<td>1.5</td>
+<td>1.6</td>
 <td>https://open.kattis.com/problems/skruop</td>
 </tr>
 
@@ -195,7 +225,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>A Different Problem</td>
-<td>2.9</td>
+<td>3.0</td>
 <td>https://open.kattis.com/problems/different</td>
 </tr>
 
@@ -219,7 +249,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Akcija</td>
-<td>2.3</td>
+<td>2.4</td>
 <td>https://open.kattis.com/problems/akcija</td>
 </tr>
 
@@ -231,7 +261,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Almost Sorted</td>
-<td>8.5</td>
+<td>8.6</td>
 <td>https://open.kattis.com/problems/almostsorted2</td>
 </tr>
 
@@ -369,7 +399,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Counting Days</td>
-<td>2.8</td>
+<td>2.7</td>
 <td>https://open.kattis.com/problems/countingdays</td>
 </tr>
 
@@ -405,13 +435,13 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Double Password</td>
-<td>1.7</td>
+<td>1.6</td>
 <td>https://open.kattis.com/problems/doublepassword</td>
 </tr>
 
 <tr>
 <td>Echo Echo Echo</td>
-<td>1.3</td>
+<td>1.2</td>
 <td>https://open.kattis.com/problems/echoechoecho</td>
 </tr>
 
@@ -425,6 +455,12 @@ while preparing for competitive programming competitions.
 <td>Engineering English</td>
 <td>2.3</td>
 <td>https://open.kattis.com/problems/engineeringenglish</td>
+</tr>
+
+<tr>
+<td>Everything Is A Nail</td>
+<td>5.8</td>
+<td>https://open.kattis.com/problems/everythingisanail</td>
 </tr>
 
 <tr>
@@ -452,6 +488,12 @@ while preparing for competitive programming competitions.
 </tr>
 
 <tr>
+<td>Falling Mugs</td>
+<td>3.8</td>
+<td>https://open.kattis.com/problems/falling</td>
+</tr>
+
+<tr>
 <td>Filip</td>
 <td>1.4</td>
 <td>https://open.kattis.com/problems/filip</td>
@@ -459,13 +501,13 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Finding An A</td>
-<td>1.3</td>
+<td>1.4</td>
 <td>https://open.kattis.com/problems/findingana</td>
 </tr>
 
 <tr>
 <td>FizzBuzz</td>
-<td>1.4</td>
+<td>1.5</td>
 <td>https://open.kattis.com/problems/fizzbuzz</td>
 </tr>
 
@@ -554,6 +596,12 @@ while preparing for competitive programming competitions.
 </tr>
 
 <tr>
+<td>I Hate The Number Nine</td>
+<td>3.2</td>
+<td>https://open.kattis.com/problems/nine</td>
+</tr>
+
+<tr>
 <td>I've Been Everywhere, Man</td>
 <td>1.4</td>
 <td>https://open.kattis.com/problems/everywhere</td>
@@ -573,7 +621,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Jack-O'-Lantern Juxtaposition</td>
-<td>1.3</td>
+<td>1.2</td>
 <td>https://open.kattis.com/problems/jackolanternjuxtaposition</td>
 </tr>
 
@@ -597,13 +645,13 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Leggja saman</td>
-<td>1.2</td>
+<td>1.3</td>
 <td>https://open.kattis.com/problems/leggjasaman</td>
 </tr>
 
 <tr>
 <td>Martian DNA</td>
-<td>3.9</td>
+<td>4.0</td>
 <td>https://open.kattis.com/problems/martiandna</td>
 </tr>
 
@@ -615,7 +663,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Messy lists</td>
-<td>2.2</td>
+<td>2.1</td>
 <td>https://open.kattis.com/problems/stokigalistor</td>
 </tr>
 
@@ -669,7 +717,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Numbers On a Tree</td>
-<td>2.6</td>
+<td>2.7</td>
 <td>https://open.kattis.com/problems/numbertree</td>
 </tr>
 
@@ -723,7 +771,7 @@ while preparing for competitive programming competitions.
 
 <tr>
 <td>Product Divisors</td>
-<td>6.6</td>
+<td>7.1</td>
 <td>https://open.kattis.com/problems/productdivisors</td>
 </tr>
 
@@ -767,22 +815,4 @@ while preparing for competitive programming competitions.
 <td>Reversed Binary Numbers</td>
 <td>1.5</td>
 <td>https://open.kattis.com/problems/reversebinary</td>
-</tr>
-
-<tr>
-<td>SMIL</td>
-<td>1.6</td>
-<td>https://open.kattis.com/problems/smil</td>
-</tr>
-
-<tr>
-<td>Shattered Cake</td>
-<td>1.5</td>
-<td>https://open.kattis.com/problems/shatteredcake</td>
-</tr>
-
-<tr>
-<td>Simple Arithmetic</td>
-<td>4.3</td>
-<td>https://open.kattis.com/problems/simplearithmetic</td>
 </tr>
