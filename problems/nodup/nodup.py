@@ -1,6 +1,2 @@
-s = input().split()
-
-if len(set(s)) == len(s):
-    print("yes")
-else:
-    print("no")
+a = input().split()
+print("yes" if len(a)==len(set(a)) else "no")
