@@ -1,20 +1,20 @@
-# Finding An A
+# Hittast
 
 <table>
     <tr>
         <td>Category</td>
-        <td>Easy</td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>1.3</td>
+        <td>5.3</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>55.71 %</td>
+        <td>87.12 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/findingana</td>
+        <td>https://open.kattis.com/problems/hittast</td>
     </tr>
 </table>

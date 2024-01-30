@@ -1,20 +1,20 @@
-# Finding An A
+# Cantina of Babel
 
 <table>
     <tr>
         <td>Category</td>
-        <td>Easy</td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>1.3</td>
+        <td>3.2</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>55.71 %</td>
+        <td>44.08 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/findingana</td>
+        <td>https://open.kattis.com/problems/cantinaofbabel</td>
     </tr>
 </table>

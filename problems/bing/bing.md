@@ -1,20 +1,20 @@
-# Finding An A
+# Bing It On
 
 <table>
     <tr>
         <td>Category</td>
-        <td>Easy</td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>1.3</td>
+        <td>3.1</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>55.71 %</td>
+        <td>37.45 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/findingana</td>
+        <td>https://open.kattis.com/problems/bing</td>
     </tr>
 </table>
