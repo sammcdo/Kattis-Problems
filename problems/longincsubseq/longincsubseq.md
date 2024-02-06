@@ -1,20 +1,20 @@
-# Viðsnúningur
+# Longest Increasing Subsequence
 
 <table>
     <tr>
         <td>Category</td>
-        <td>Easy</td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>1.2</td>
+        <td>5.3</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>48.65 %</td>
+        <td>33.91 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/vidsnuningur</td>
+        <td>https://open.kattis.com/problems/longincsubseq</td>
     </tr>
 </table>

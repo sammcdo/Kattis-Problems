@@ -29,7 +29,7 @@ def dijkstra(graph, start):
                     heapq.heappush(unvisited, (neighbor[0], dist[neighbor[0]]))
 
     return dist
-
+    
 nodes, edges = map(int, input().split())
 
 lodging = {}
@@ -52,12 +52,9 @@ for i in range(edges):
 a_cost = dijkstra(alf, 1)
 b_cost = dijkstra(ben, nodes)
 
-
 minCost = float('inf')
 for i in range(1, nodes+1):
     cost = a_cost[i] + b_cost[i] + lodging[i]
-    # print(i, ":", a_cost[i], b_cost[i], lodging[i], ":", cost)
 
     minCost = min(minCost, cost)
-
 print(minCost)

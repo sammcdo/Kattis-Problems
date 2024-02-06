@@ -1,20 +1,20 @@
-# Viðsnúningur
+# Bendilfærslur
 
 <table>
     <tr>
         <td>Category</td>
-        <td>Easy</td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>1.2</td>
+        <td>4.6</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>48.65 %</td>
+        <td>92.64 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/vidsnuningur</td>
+        <td>https://open.kattis.com/problems/bendilfaerslur</td>
     </tr>
 </table>
