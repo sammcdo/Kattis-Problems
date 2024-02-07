@@ -1,4 +1,4 @@
-# Framtíðar FIFA
+# Refrigerator Transport
 
 <table>
     <tr>
@@ -7,14 +7,14 @@
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>1.2</td>
+        <td>2.5</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>52.32 %</td>
+        <td>55.16 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/fifa</td>
+        <td>https://open.kattis.com/problems/refrigerator</td>
     </tr>
 </table>

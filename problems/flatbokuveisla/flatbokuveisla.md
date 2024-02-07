@@ -1,4 +1,4 @@
-# Framtíðar FIFA
+# Flatbökuveisla
 
 <table>
     <tr>
@@ -11,10 +11,10 @@
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>52.32 %</td>
+        <td>66.49 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/fifa</td>
+        <td>https://open.kattis.com/problems/flatbokuveisla</td>
     </tr>
 </table>

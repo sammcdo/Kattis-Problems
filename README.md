@@ -14,6 +14,12 @@ while preparing for competitive programming competitions.
 <tbody>
 
 <tr>
+<td>Knapsack</td>
+<td>4.3</td>
+<td>https://open.kattis.com/problems/knapsack</td>
+</tr>
+
+<tr>
 <td>Knight Packing</td>
 <td>1.2</td>
 <td>https://open.kattis.com/problems/knightpacking</td>
@@ -245,6 +251,12 @@ while preparing for competitive programming competitions.
 <td>Rating Problems</td>
 <td>1.4</td>
 <td>https://open.kattis.com/problems/ratingproblems</td>
+</tr>
+
+<tr>
+<td>Refrigerator Transport</td>
+<td>2.5</td>
+<td>https://open.kattis.com/problems/refrigerator</td>
 </tr>
 
 <tr>
@@ -986,6 +998,12 @@ while preparing for competitive programming competitions.
 </tr>
 
 <tr>
+<td>Flatbökuveisla</td>
+<td>1.2</td>
+<td>https://open.kattis.com/problems/flatbokuveisla</td>
+</tr>
+
+<tr>
 <td>Fluortanten</td>
 <td>3.1</td>
 <td>https://open.kattis.com/problems/fluortanten</td>
@@ -1157,10 +1175,4 @@ while preparing for competitive programming competitions.
 <td>Keylogger</td>
 <td>2.6</td>
 <td>https://open.kattis.com/problems/keylogger</td>
-</tr>
-
-<tr>
-<td>Knapsack</td>
-<td>4.3</td>
-<td>https://open.kattis.com/problems/knapsack</td>
 </tr>
