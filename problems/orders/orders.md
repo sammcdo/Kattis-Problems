@@ -1,20 +1,20 @@
-# Saving Daylight
+# Restaurant Orders
 
 <table>
     <tr>
         <td>Category</td>
-        <td>Easy</td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>2.2</td>
+        <td>5.3</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>52.22 %</td>
+        <td>20.87 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/savingdaylight</td>
+        <td>https://open.kattis.com/problems/orders</td>
     </tr>
 </table>
