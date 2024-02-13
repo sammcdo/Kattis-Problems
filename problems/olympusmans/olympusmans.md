@@ -1,20 +1,20 @@
-# Eiginnöfn
+# Olympus Måns
 
 <table>
     <tr>
         <td>Category</td>
-        <td>Easy</td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>2.5</td>
+        <td>5.2</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>77.01 %</td>
+        <td>43.33 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/eiginnofn</td>
+        <td>https://open.kattis.com/problems/olympusmans</td>
     </tr>
 </table>

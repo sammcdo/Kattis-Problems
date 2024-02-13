@@ -1,20 +1,20 @@
-# Eiginnöfn
+# Greedy Increasing Subsequences
 
 <table>
     <tr>
         <td>Category</td>
-        <td>Easy</td>
+        <td>Hard</td>
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>2.5</td>
+        <td>6.5</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>77.01 %</td>
+        <td>47.22 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/eiginnofn</td>
+        <td>https://open.kattis.com/problems/greedyincreasingsubsequences</td>
     </tr>
 </table>
