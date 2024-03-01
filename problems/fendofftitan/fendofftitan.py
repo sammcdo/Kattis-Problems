@@ -20,14 +20,10 @@ for i in range(roads):
 
     edges.append(edge)
 
-# print(edges)
-
 distance = []
 
 for i in range(villages):
     distance.append([float("inf"), float("inf"), float("inf")])
-
-# print(distance)
 
 distance[start-1] = [0,0,0] # l, s, t
 
@@ -62,7 +58,6 @@ for i in range(villages-1):
                     x, y, z = distance[a]
                     distance[b] = [x + l, y + s, z + t]
 
-# print(distance)
 if float("inf") in distance[end-1]:
     print("IMPOSSIBLE")
 else:
