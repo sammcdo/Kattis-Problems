@@ -1,16 +1,18 @@
-b = 0
-good = input() + " "
+one = input()
+two = input()
 
-bad = input() + " "
+i = len(one)-1
+j = len(two)-1
 
-sticky = set()
+diff = set()
 
-for g in good:
-    while bad[b] != g:
-        sticky.add(bad[b])
-        b += 1
-    b += 1
+while j >= 0:
+    if i < 0:
+        diff.add(two[j])
+    if one[i] != two[j]:
+        diff.add(two[j])
+    else:
+        i -= 1
+    j -= 1
 
-
-
-print("".join(sticky))
+print("".join(diff))

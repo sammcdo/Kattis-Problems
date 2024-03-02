@@ -1,4 +1,4 @@
-# Óvissa
+# Rampant Growth
 
 <table>
     <tr>
@@ -7,14 +7,14 @@
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>1.2</td>
+        <td>1.6</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>50.84 %</td>
+        <td>62.25 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/ovissa</td>
+        <td>https://open.kattis.com/problems/rampantgrowth</td>
     </tr>
 </table>
