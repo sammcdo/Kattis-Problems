@@ -1,6 +1,9 @@
-a = int(input())
+num = int(input())
 
-l = [int(input()) for i in range(a)][::-1]
+l = []
 
-for i in l:
+for i in range(num):
+    l.append(input())
+
+for i in l[::-1]:
     print(i)
