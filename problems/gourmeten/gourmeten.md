@@ -7,11 +7,11 @@
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>2.4</td>
+        <td>1.8</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>56.1 %</td>
+        <td>54.06 %</td>
     </tr>
     <tr>
         <td>Link</td>

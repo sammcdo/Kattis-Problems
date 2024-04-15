@@ -4,6 +4,12 @@ c, ylow, yhigh = map(int, input().split())
 
 min_k = -1
 max_k = -1
+# def curve(k, inp):
+#     if k == 0:
+#         return inp
+#     else:
+#         return curve(k-1, 10*math.sqrt(inp))
+
 
 i = 0
 while True:
