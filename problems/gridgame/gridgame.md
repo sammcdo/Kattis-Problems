@@ -1,20 +1,20 @@
-# Á leið í bíó
+# Grid Game
 
 <table>
     <tr>
         <td>Category</td>
-        <td>Easy</td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>1.1</td>
+        <td>5.3</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>54.81 %</td>
+        <td>44.46 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/aleidibio</td>
+        <td>https://open.kattis.com/problems/gridgame</td>
     </tr>
 </table>
