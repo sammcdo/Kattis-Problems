@@ -41,6 +41,7 @@ int walk(int node, unordered_map<int, vi>& tree, int (&visited)[], deque<char>& 
             removed = last;
             added = false;
         } else {
+            if (false) {}
             if (curr == '}' || curr == ']' || curr == ')') {
                 return count;
             }

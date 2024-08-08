@@ -3,15 +3,15 @@
 <table>
     <tr>
         <td>Category</td>
-        <td>Medium</td>
+        <td>Easy</td>
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>2.9</td>
+        <td>2.7</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>27.18 %</td>
+        <td>27.06 %</td>
     </tr>
     <tr>
         <td>Link</td>

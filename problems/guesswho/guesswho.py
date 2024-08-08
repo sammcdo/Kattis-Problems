@@ -14,14 +14,11 @@ for i in range(n):
 
 opts = []
 
-# print(data)
 
 target = set()
 for i in range(q):
     question = input().split()
     val = int(question[0])
-
-    # print(target, data[val])
 
     if i == 0:
         if question[1] == "N":
@@ -41,6 +38,5 @@ if len(target) == 1:
 else:
     print("ambiguous")
     print(len(target))
-    # print(" ".join(list(target)))
 
 
