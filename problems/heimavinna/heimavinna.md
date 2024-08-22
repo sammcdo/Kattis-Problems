@@ -1,4 +1,4 @@
-# Homework
+# Heimavinna
 
 <table>
     <tr>
@@ -11,7 +11,7 @@
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>86.83 %</td>
+        <td>68.05 %</td>
     </tr>
     <tr>
         <td>Link</td>
