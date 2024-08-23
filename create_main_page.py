@@ -51,6 +51,7 @@ with open("README.md", 'w') as obj:
     problems = kt.problems(show_partial=False)
 
     obj.write(table)
+    problems.sort(key=lambda x: x["difficulty"])
     for p in problems:
         # p["name"] = p["name"].decode('utf-8')
         obj.write(tableFormat.format(**p))

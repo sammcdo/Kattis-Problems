@@ -1,4 +1,4 @@
-# Counting Days
+# Prince and Princess
 
 <table>
     <tr>
@@ -7,14 +7,14 @@
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>2.9</td>
+        <td>5.4</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>45.07 %</td>
+        <td>26.09 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/countingdays</td>
+        <td>https://open.kattis.com/problems/princeandprincess</td>
     </tr>
 </table>
