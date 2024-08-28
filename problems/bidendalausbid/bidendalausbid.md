@@ -1,4 +1,4 @@
-# Hraðgreining
+# Bið, endalaus bið
 
 <table>
     <tr>
@@ -7,14 +7,14 @@
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>1.2</td>
+        <td>2.5</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>55.18 %</td>
+        <td>64.75 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/hradgreining</td>
+        <td>https://open.kattis.com/problems/bidendalausbid</td>
     </tr>
 </table>
