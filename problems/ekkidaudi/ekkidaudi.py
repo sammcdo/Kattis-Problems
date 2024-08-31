@@ -1,4 +1,8 @@
-a, b = input().split("|")
-c, d = input().split("|")
+first, second = input().split("|")
 
-print(a+c, b+d)
+a,b = input().split("|")
+
+first += a
+second += b
+
+print(first, second)
