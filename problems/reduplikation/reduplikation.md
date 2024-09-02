@@ -1,4 +1,4 @@
-# Shopaholic
+# Reduplication
 
 <table>
     <tr>
@@ -7,14 +7,14 @@
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>2.3</td>
+        <td>1.2</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>36.67 %</td>
+        <td>61.07 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/shopaholic</td>
+        <td>https://open.kattis.com/problems/reduplikation</td>
     </tr>
 </table>

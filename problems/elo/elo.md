@@ -1,20 +1,20 @@
-# Shopaholic
+# Elo
 
 <table>
     <tr>
         <td>Category</td>
-        <td>Easy</td>
+        <td>Medium</td>
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>2.3</td>
+        <td>5.3</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>36.67 %</td>
+        <td>52.48 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/shopaholic</td>
+        <td>https://open.kattis.com/problems/elo</td>
     </tr>
 </table>
