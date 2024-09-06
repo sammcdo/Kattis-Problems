@@ -1,20 +1,20 @@
-# Pick up sticks
+# Guess the Number
 
 <table>
     <tr>
         <td>Category</td>
-        <td>Medium</td>
+        <td>Easy</td>
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>4.2</td>
+        <td>2.7</td>
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>27.02 %</td>
+        <td>22.7 %</td>
     </tr>
     <tr>
         <td>Link</td>
-        <td>https://open.kattis.com/problems/pickupsticks</td>
+        <td>https://open.kattis.com/problems/guess</td>
     </tr>
 </table>

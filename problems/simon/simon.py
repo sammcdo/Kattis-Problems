@@ -1,10 +1,11 @@
 import sys
 
-size = int(sys.stdin.readline())
+n = int(sys.stdin.readline())
 
-for i in range(size):
-    command = sys.stdin.readline()
-    if command.startswith("simon says "):
-        sys.stdout.write(command[11::]+"\n")
+for i in range(n):
+    line = sys.stdin.readline()
+    if line.startswith("simon says"):
+        line = line.split()[2::]
+        sys.stdout.write(" ".join(line)+"\n")
     else:
         sys.stdout.write("\n")
