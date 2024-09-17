@@ -1,11 +1,12 @@
-input()
+n = int(input())
 
-a = list(map(int, input().split()))
-b = sorted(a)
+nums = [int(i) for i in input().split()]
 
-count = 0
-for i in range(len(a)):
-    if a[i] != b[i]:
-        count += 1
+s = list(sorted(nums))
 
-print(count)
+c = 0
+for i in range(n):
+    if nums[i] != s[i]:
+        c += 1
+
+print(c)
