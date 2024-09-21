@@ -1,33 +1,42 @@
-import heapq
-
+# input
 n, k, c = map(int, input().split())
-
-schools = {}
-
-items = []
-
-output = []
-remaining = []
-
+ranks = []
 for i in range(n):
-    id, school = map(int, input().split())
+    t, s = map(int, input().split())
+    ranks.append([t, s])
+order = []
+orderSet = set()
+filled = {}
 
-    if school not in schools:
-        schools[school] = []
-
-    if len(schools[school]) < c:
-        schools[school].append(id)
-        output.append([i, id])
+# pass 1
+i = 0
+for t, s in ranks:
+    if s in filled:
+        if filled[s] >= c:
+            i += 1
+            continue
+        else:
+            filled[s] += 1
+            order.append((i, t))
+            orderSet.add(t)
     else:
-        heapq.heappush(remaining, [i, id])
+        filled[s] = 1
+        order.append((i, t))
+        orderSet.add(t)
+    i += 1
 
-    if len(output) == k:
-        break
+# pass 2
+i = 0
+for t, s in ranks:
+    if t in orderSet:
+        i += 1
+        continue
+    order.append((i, t))
+    i += 1
 
-while len(output) < k:
-    output.append(heapq.heappop(remaining))
 
-output.sort()
-
-for i in output:
-    print(i[1])
+# out
+order = order[0:k]
+order.sort()
+for o in order:
+    print(o[1])

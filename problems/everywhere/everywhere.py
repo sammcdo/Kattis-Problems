@@ -1,5 +1,7 @@
 for i in range(int(input())):
-    names = set()
-    for j in range(int(input())):
-        names.add(input())
-    print(len(names))
+    a = int(input())
+    l = []
+    for i in range(a):
+        l.append(input())
+    print(len(set(l)))
+    
