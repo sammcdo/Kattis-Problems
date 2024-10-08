@@ -1,18 +1,24 @@
-k=int(input())
-yours = list(input())
-theirs = list(input())
+n = int(input())
 
-score = 0
-opp = 0
-for i in range(len(yours)):
-    if yours[i] == theirs[i]:
-        if k > 0:
-            score += 1
-            k -= 1
+first = list(input())
+second = list(input())
 
+i = 0
+res = n
+match = 0
+nmatch = 0
+while i < len(first):
+    if first[i] != second[i]:
+        nmatch += 1
     else:
-        opp += 1
+        match += 1
+    i += 1
 
-score += max(0, opp-k)
+# print(res, res2)
 
-print(score)
+
+rightFromMatch = min(match,n)
+a = max(n-match, 0) # pos if correct left over
+rightFromNMatch = nmatch - a
+
+print(rightFromMatch + rightFromNMatch)

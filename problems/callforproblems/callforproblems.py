@@ -1,0 +1,1 @@
+print(len([1 for i in range(int(input())) if int(input()) % 2 == 1]))

@@ -1,21 +1,45 @@
-b, d, c, l = map(int, input().split())
+a,b,c,target = map(int, input().split())
 
-combos = []
-found = False
+legs = [a,b,c]
 
-for i in range(251):
-    for j in range(251):
-        for k in range(251):
-            legs = i*b + j*d + k*c
-            
-            if legs == l:
-                combos.append((i,j,k))
-                found = True
-            elif legs > l:
+sol = set()
+i=j=k = 0
+s = 0
+while True:
+    s = legs[0] * i
+    while True:
+        s += legs[1] * j
+        
+        while True:
+            # print(i,j,k,s)
+            s += legs[2] * k
+            if s == target:
+                sol.add((i,j,k))
+            if s > target:
+                s -= legs[2] * k
+                k = 0
                 break
+            s -= legs[2] * k
+            k += 1
+        
+        if s == target:
+            sol.add((i,j,k))
+        if s > target:
+            s -= legs[1] * j
+            j = 0
+            break
+        s -= legs[1] * j
+        j += 1
+    if s == target:
+        sol.add((i,j,k))
+    if s > target:
+        break
+    i += 1
 
-if not found:
-    print("impossible")
-else:
-    for i in sorted(combos):
+sol = list(sol)
+sol.sort()
+if len(sol) > 0:
+    for i in sol:
         print(*i)
+else:
+    print("impossible")
