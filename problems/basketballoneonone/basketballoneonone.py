@@ -1,30 +1,18 @@
-thing = input()
+x = input()
 
 a = 0
 b = 0
 
-while len(thing) > 0:
-    t = thing[0]
-    thing = thing[1::]
-    n = []
-    if 'A' in thing:
-        n.append(thing.index('A'))
-    if 'B' in thing:
-        n.append(thing.index('B'))
-    n.append(len(thing))
-    n = min(n)
-    p = thing[0:n]
-    thing = thing[n::]
-
-    if t == 'A':
-        a += int(p)
+for i in range(0, len(x), 2):
+    t = x[i]
+    p = int(x[i+1])
+    if t == "A":
+        a += p
     else:
-        b += int(p)
-
+        b += p
+    # print(a,b)
     if a >= 11 and a-b >= 2:
         print("A")
         break
-
-    if b >= 11 and b - a >= 2:
+    if b >= 11 and b-a >= 2:
         print("B")
-        break

@@ -1,12 +1,15 @@
-var = 7
+n = int(input())
 
-for i in range(int(input())):
-    cmd = input()
-    if "op" in cmd:
-        var += 1
+cmds = [input() for i in range(n)]
+
+vol = 7
+
+for i in cmds:
+    if i == "Skru op!":
+        vol += 1
+        vol = min(vol, 10)
     else:
-        var -= 1
-    var = max(var, 0)
-    var = min(10, var)
+        vol -= 1
+        vol = max(0,vol)
 
-print(var)
+print(vol)
