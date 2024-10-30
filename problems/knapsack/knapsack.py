@@ -11,19 +11,15 @@ while True:
             values.append(a)
             weights.append(b)
 
-        dp = [[0 for j in range(cap+1)] for i in range(cases+1)]
+        dp = [[0 for j in range(cap+1)]]
 
         for i in range(1, cases+1):
-            for j in range(1,cap+1):
-                if weights[i-1] <= j:
-                    added = values[i-1] + dp[i-1][j-weights[i-1]]
-                    not_added = dp[i-1][j]
-                    if added >= not_added:
-                        dp[i][j] = added
-                    else:
-                        dp[i][j] = not_added
-                else:
-                    dp[i][j] = dp[i-1][j]
+            dp.append(dp[i-1].copy())
+            v, w = values[i-1], weights[i-1]
+            for j in range(w,cap+1):
+                added = v + dp[i-1][j-w]
+                not_added = dp[i][j]
+                dp[i][j] = max(added, not_added)
 
         inds = []
         for i in range(cases, 0, -1):
