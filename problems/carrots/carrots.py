@@ -1,4 +1,1 @@
-n,p = map(int,input().split())
-people = [input() for i in range(n)]
-
-print(p)
+print(input().split()[1])

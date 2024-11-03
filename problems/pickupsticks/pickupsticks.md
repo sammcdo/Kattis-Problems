@@ -7,7 +7,7 @@
     </tr>
     <tr>
         <td>Diffulty</td>
-        <td>3.4</td>
+        <td>3.1</td>
     </tr>
     <tr>
         <td>Acceptance</td>

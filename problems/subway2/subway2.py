@@ -81,4 +81,10 @@ for i in nodes:
 
 dist = dijkstra(graph, (homeX, homeY))
 
+
+# debugging
+# print(homeX, homeY, destX, destY)
+# print(lines)
+# print(graph)
+# print(dist)
 print(round(dist[(destX, destY)]))

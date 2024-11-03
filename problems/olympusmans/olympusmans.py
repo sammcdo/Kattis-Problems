@@ -13,6 +13,8 @@ for i in range(len(heights)):
 		m = heights[i]
 		highest = i
 
+# print(m, highest)
+
 heights = heights[:highest+1]
 if len(heights) == 1:
 	print(0)
@@ -26,10 +28,15 @@ for i in range(1, len(heights)):
 		least_slope = slope
 		least_slope_ind = i
 
+# print(m, highest, heights[least_slope_ind], least_slope_ind)
+# print(least_slope)
+
 a = heights[0] + 4
 a = math.ceil((m-heights[0]-4) / least_slope) - highest
 
 b = (m-heights[0]-4)/(a+highest)
+
+# print(a, b, least_slope)
 
 if a < 0:
 	a = 0
