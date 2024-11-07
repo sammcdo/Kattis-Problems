@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html class="theme_light" lang="en">
+<html class="theme_dark" lang="en">
 <head>
     <!-- Load sentry as early as possible -->
-            <script nonce="4a4a8b082f0d52f94d4c5633d87e75b5dd06b278ae1793849a929e1b8f37dd5b" src="https://js.sentry-cdn.com/1ad5e9767ad243d396a93ef40135e743.min.js" crossorigin="anonymous" data-lazy="no"></script>
+            <script nonce="a60298a13e9fdd07f110408ccee71954905cbc4b706cdea90b1cc409af5df039" src="https://js.sentry-cdn.com/1ad5e9767ad243d396a93ef40135e743.min.js" crossorigin="anonymous" data-lazy="no"></script>
 
-    <script nonce="4a4a8b082f0d52f94d4c5633d87e75b5dd06b278ae1793849a929e1b8f37dd5b" type="module">
+    <script nonce="a60298a13e9fdd07f110408ccee71954905cbc4b706cdea90b1cc409af5df039" type="module">
         Sentry.onLoad(function() {
             Sentry.init({
                 dsn: "https://1ad5e9767ad243d396a93ef40135e743:0f66eac85d88443baa349f5bc2497f28@sentry.io/271015",
-                release: "0dc0ecb197687b57c7f70c30bfc6c9b19d284e7a",
+                release: "b7b5235f83958df062a99bc42c857f13673cd431",
                 environment: "edu",
                 whitelistUrls: [
                     /https?:\/\/open\.kattis\.com/                 ],
                 ignoreErrors: [
-                    "Non-Error exception captured",                     "Non-Error promise rejection captured",                    'ResizeObserver loop limit exceeded'                ],
-                ignoreUrls: ['/static\.cloudflareinsights\.com/'],                 autoSessionTracking: false,
+                    "Non-Error exception captured",                     "Non-Error promise rejection captured",                    'ResizeObserver loop limit exceeded',                    'Can\'t find variable: zaloJSV2'                ],
+                denyUrls: ['/static\.cloudflareinsights\.com/'],                 autoSessionTracking: false,
                 integrations: [                    new Sentry.BrowserTracing(),
                 ],
                 tracesSampleRate: 0,
@@ -34,11 +34,11 @@
 
     <!-- Jquery and Jquery-ui -->
     <link href="/assets/45ee1c6d5829549ca51118259436e200/jquery-ui-dist/jquery-ui.theme.min.css" rel="stylesheet">
-    <script nonce="4a4a8b082f0d52f94d4c5633d87e75b5dd06b278ae1793849a929e1b8f37dd5b" src="/assets/45ee1c6d5829549ca51118259436e200/jquery/dist/jquery.min.js"></script>
-    <script nonce="4a4a8b082f0d52f94d4c5633d87e75b5dd06b278ae1793849a929e1b8f37dd5b" src="/assets/45ee1c6d5829549ca51118259436e200/jquery-ui-dist/jquery-ui.min.js"></script>
+    <script nonce="a60298a13e9fdd07f110408ccee71954905cbc4b706cdea90b1cc409af5df039" src="/assets/45ee1c6d5829549ca51118259436e200/jquery/dist/jquery.min.js"></script>
+    <script nonce="a60298a13e9fdd07f110408ccee71954905cbc4b706cdea90b1cc409af5df039" src="/assets/45ee1c6d5829549ca51118259436e200/jquery-ui-dist/jquery-ui.min.js"></script>
 
     <!-- Timezone Cookie -->
-    <script nonce="4a4a8b082f0d52f94d4c5633d87e75b5dd06b278ae1793849a929e1b8f37dd5b" type="module" src="/js/6e92b8b4b357989c4563333870b49332/modules/timezone.js"></script>
+    <script nonce="a60298a13e9fdd07f110408ccee71954905cbc4b706cdea90b1cc409af5df039" type="module" src="/js/d9e869e5164e2fed13f23801dad6f29b/modules/timezone.js"></script>
 
     <!-- Fonts/Icons -->
     <link href="/assets/45ee1c6d5829549ca51118259436e200/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -87,7 +87,7 @@
         <meta name="msapplication-square310x310logo" content="/images/favicon/mstile-310x310.png">
     
     <!-- Own CSS -->
-    <link rel="stylesheet" href="/css/80df8489d35842c1e00f64f9d7b668b9/style.css">
+    <link rel="stylesheet" href="/css/2d0141792582a6acf5ac712a5477447d/style.css">
     <style type="text/css">           .logo {
          background-color: ;
      }
@@ -100,7 +100,7 @@ div.page-content.clearfix.above-everything.alert.alert-danger div.main-content {
 
          </style>
 
-    <script nonce="4a4a8b082f0d52f94d4c5633d87e75b5dd06b278ae1793849a929e1b8f37dd5b" type="text/javascript">
+    <script nonce="a60298a13e9fdd07f110408ccee71954905cbc4b706cdea90b1cc409af5df039" type="text/javascript">
         window.page_loaded_at = new Date();
         jQuery.noConflict();
     </script>
@@ -127,7 +127,7 @@ div.page-content.clearfix.above-everything.alert.alert-danger div.main-content {
             <button class="menu_mobile_link" >
                 <i class="fas fa-bars menu_mobile_link_icon"></i>
             </button>
-            <script nonce="4a4a8b082f0d52f94d4c5633d87e75b5dd06b278ae1793849a929e1b8f37dd5b" type="module" src="/js/6e92b8b4b357989c4563333870b49332/pages/master/nav.js"></script>
+            <script nonce="a60298a13e9fdd07f110408ccee71954905cbc4b706cdea90b1cc409af5df039" type="module" src="/js/d9e869e5164e2fed13f23801dad6f29b/pages/master/nav.js"></script>
         </div>
         <div class="branding_border"></div>
         <div class="page_header-content">
@@ -191,18 +191,9 @@ div.page-content.clearfix.above-everything.alert.alert-danger div.main-content {
                         <i id="search_submit" class="fas fa-search search-icon"></i>
                     </form>
                 </div>
-            
-        </div>
+                    </div>
     </div>
 </header>
-
-<script nonce="4a4a8b082f0d52f94d4c5633d87e75b5dd06b278ae1793849a929e1b8f37dd5b" type="text/javascript">
-    jQuery(function($) {
-        $('.page_header-arrow_expand_collapse').click(function() {
-            $('body').toggleClass('header-collapsed');
-        });
-    });
-</script>
 
 <div class="l-main_area">
     
@@ -214,7 +205,7 @@ div.page-content.clearfix.above-everything.alert.alert-danger div.main-content {
 
 
 <div class="top_bar ">
-    <script nonce="4a4a8b082f0d52f94d4c5633d87e75b5dd06b278ae1793849a929e1b8f37dd5b" type="module" src="/js/6e92b8b4b357989c4563333870b49332/pages/master/top_bar.js"></script>
+    <script nonce="a60298a13e9fdd07f110408ccee71954905cbc4b706cdea90b1cc409af5df039" type="module" src="/js/d9e869e5164e2fed13f23801dad6f29b/pages/master/top_bar.js"></script>
     <div class="branding_border"></div>
             <div class="top_bar-content-wrapper">
             <div class="top_bar-section top_bar-section-large">
@@ -247,7 +238,7 @@ div.page-content.clearfix.above-everything.alert.alert-danger div.main-content {
                                 <span class="tooltip-arrow"></span>
                                 <div class="tooltip-content tooltip-menu tooltip-top_bar">
                                     <i class="fas fa-times tooltip-close tooltip-top_bar-close"></i>
-                                    <a href="/users/king-mcd" class="image_info static_link"><div class="image_info-image-container"><img src="/images/users/king-mcd?v=299a66dd77ad47a37d4710afa74b1aa4"alt="Samuel McDowell"class="image_info-image image_info-image-strip image_info-image-rounded ""/></div><div class="image_info-text-container"><span class="image_info-text-main image_info-text-main-user">Samuel McDowell</span><span class="image_info-text-sub"><ul class="image_info-list-sub"><li>Score: 899.9</li><li>Rank: 762</li></ul></span></div></a>
+                                    <a href="/users/king-mcd" class="image_info static_link"><div class="image_info-image-container"><img src="/images/users/king-mcd?v=299a66dd77ad47a37d4710afa74b1aa4"alt="Samuel McDowell"class="image_info-image image_info-image-strip image_info-image-rounded ""/></div><div class="image_info-text-container"><span class="image_info-text-main image_info-text-main-user">Samuel McDowell</span><span class="image_info-text-sub"><ul class="image_info-list-sub"><li>Score: 920.6</li><li>Rank: 737</li></ul></span></div></a>
                                     <div class="tooltip-top_bar-item logout-container">
                                         <a href="/logout" class="button button-basic button-block whitespace-nowrap">Log out<i class="fas fa-sign-out-alt button-icon-right"></i></a>
                                     </div>
@@ -298,12 +289,12 @@ div.page-content.clearfix.above-everything.alert.alert-danger div.main-content {
 
 
 
-<script nonce="4a4a8b082f0d52f94d4c5633d87e75b5dd06b278ae1793849a929e1b8f37dd5b" src="/assets/45ee1c6d5829549ca51118259436e200/moment/min/moment.min.js"></script>
-<script nonce="4a4a8b082f0d52f94d4c5633d87e75b5dd06b278ae1793849a929e1b8f37dd5b" src="/assets/45ee1c6d5829549ca51118259436e200/bootstrap-daterangepicker/daterangepicker.js"></script>
-<script nonce="4a4a8b082f0d52f94d4c5633d87e75b5dd06b278ae1793849a929e1b8f37dd5b" src="/assets/45ee1c6d5829549ca51118259436e200/select2/dist/js/select2.full.min.js"></script>
+<script nonce="a60298a13e9fdd07f110408ccee71954905cbc4b706cdea90b1cc409af5df039" src="/assets/45ee1c6d5829549ca51118259436e200/moment/min/moment.min.js"></script>
+<script nonce="a60298a13e9fdd07f110408ccee71954905cbc4b706cdea90b1cc409af5df039" src="/assets/45ee1c6d5829549ca51118259436e200/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script nonce="a60298a13e9fdd07f110408ccee71954905cbc4b706cdea90b1cc409af5df039" src="/assets/45ee1c6d5829549ca51118259436e200/select2/dist/js/select2.full.min.js"></script>
 
 
 
-        <script defer nonce="4a4a8b082f0d52f94d4c5633d87e75b5dd06b278ae1793849a929e1b8f37dd5b" src="https://status.kattis.com/embed/script.js"></script>
+        <script defer nonce="a60298a13e9fdd07f110408ccee71954905cbc4b706cdea90b1cc409af5df039" src="https://status.kattis.com/embed/script.js"></script>
 </body>
 </html>
