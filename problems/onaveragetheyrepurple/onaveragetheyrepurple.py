@@ -1,12 +1,13 @@
 from collections import deque
 
-nodes, edges = map(int, input().split())
+
+n, m = map(int, input().split())
 
 graph = {}
 
-for i in range(edges):
+for i in range(m):
     a,b = map(int, input().split())
-
+    
     if a not in graph:
         graph[a] = []
     if b not in graph:
@@ -15,26 +16,21 @@ for i in range(edges):
     graph[a].append(b)
     graph[b].append(a)
 
+q = deque()
+q.append([1, 0])
+visited = set()
+dist = -1
 
-def bfs(graph, start, target):
-    q = deque()
-    # [node, moves]
-    q.append([start,0])
-    visited = set()
+while len(q) > 0:
+    starting, depth = q.popleft()
+    visited.add(starting)
+    
+    if starting == n:
+        dist = depth
+        break
+    
+    for neighbor in graph[starting]:
+        if neighbor not in visited:
+            q.append([neighbor, depth+1])
 
-    while len(q) > 0:
-        # x = q.popleft()
-        node, depth = q.popleft()
-        visited.add(node)
-
-        if node == target:
-            return depth
-        
-        for next in graph[node]:
-            if next not in visited:
-                q.append([next, depth+1])
-
-
-depth = bfs(graph, 1, nodes)
-
-print(depth-1)
+print(dist - 1)

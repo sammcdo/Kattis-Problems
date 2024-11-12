@@ -1,1 +1,4 @@
-print(input().split()[1])
+n,p = map(int,input().split())
+people = [input() for i in range(n)]
+
+print(p)
