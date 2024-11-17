@@ -52,8 +52,12 @@ with open("README.md", 'w') as obj:
 
     obj.write(table)
     problems.sort(key=lambda x: x["difficulty"])
+    hard = []
     for p in problems:
+        if p["difficulty"] >= 5.5:
+            hard.append(p)
         # p["name"] = p["name"].decode('utf-8')
         obj.write(tableFormat.format(**p))
 
+print("TOTAL NUMBER OF HARD PROBLEMS:", len(hard))
 

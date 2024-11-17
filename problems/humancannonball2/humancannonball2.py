@@ -2,13 +2,13 @@
 <html class="theme_dark" lang="en">
 <head>
     <!-- Load sentry as early as possible -->
-            <script nonce="8105030f66d704a6aa3a9aa0b0640e987371983909fca0d9faf065549d0aa6e5" src="https://js.sentry-cdn.com/1ad5e9767ad243d396a93ef40135e743.min.js" crossorigin="anonymous" data-lazy="no"></script>
+            <script nonce="3789bcc19f6ba8eaa9a5e3025c360a787a3e740753f4097c166e17f11488a60d" src="https://js.sentry-cdn.com/1ad5e9767ad243d396a93ef40135e743.min.js" crossorigin="anonymous" data-lazy="no"></script>
 
-    <script nonce="8105030f66d704a6aa3a9aa0b0640e987371983909fca0d9faf065549d0aa6e5" type="module">
+    <script nonce="3789bcc19f6ba8eaa9a5e3025c360a787a3e740753f4097c166e17f11488a60d" type="module">
         Sentry.onLoad(function() {
             Sentry.init({
                 dsn: "https://1ad5e9767ad243d396a93ef40135e743:0f66eac85d88443baa349f5bc2497f28@sentry.io/271015",
-                release: "ed2a03c666798643a4984b2e05e5aa623c1758af",
+                release: "bfdea40a72a73cd25b0b8b80a2149fa0912e4aff",
                 environment: "edu",
                 whitelistUrls: [
                     /https?:\/\/open\.kattis\.com/                 ],
@@ -34,11 +34,11 @@
 
     <!-- Jquery and Jquery-ui -->
     <link href="/assets/45ee1c6d5829549ca51118259436e200/jquery-ui-dist/jquery-ui.theme.min.css" rel="stylesheet">
-    <script nonce="8105030f66d704a6aa3a9aa0b0640e987371983909fca0d9faf065549d0aa6e5" src="/assets/45ee1c6d5829549ca51118259436e200/jquery/dist/jquery.min.js"></script>
-    <script nonce="8105030f66d704a6aa3a9aa0b0640e987371983909fca0d9faf065549d0aa6e5" src="/assets/45ee1c6d5829549ca51118259436e200/jquery-ui-dist/jquery-ui.min.js"></script>
+    <script nonce="3789bcc19f6ba8eaa9a5e3025c360a787a3e740753f4097c166e17f11488a60d" src="/assets/45ee1c6d5829549ca51118259436e200/jquery/dist/jquery.min.js"></script>
+    <script nonce="3789bcc19f6ba8eaa9a5e3025c360a787a3e740753f4097c166e17f11488a60d" src="/assets/45ee1c6d5829549ca51118259436e200/jquery-ui-dist/jquery-ui.min.js"></script>
 
     <!-- Timezone Cookie -->
-    <script nonce="8105030f66d704a6aa3a9aa0b0640e987371983909fca0d9faf065549d0aa6e5" type="module" src="/js/d9e869e5164e2fed13f23801dad6f29b/modules/timezone.js"></script>
+    <script nonce="3789bcc19f6ba8eaa9a5e3025c360a787a3e740753f4097c166e17f11488a60d" type="module" src="/js/3733230c165478d407a7cfc4cc335595/modules/timezone.js"></script>
 
     <!-- Fonts/Icons -->
     <link href="/assets/45ee1c6d5829549ca51118259436e200/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -100,7 +100,7 @@ div.page-content.clearfix.above-everything.alert.alert-danger div.main-content {
 
          </style>
 
-    <script nonce="8105030f66d704a6aa3a9aa0b0640e987371983909fca0d9faf065549d0aa6e5" type="text/javascript">
+    <script nonce="3789bcc19f6ba8eaa9a5e3025c360a787a3e740753f4097c166e17f11488a60d" type="text/javascript">
         window.page_loaded_at = new Date();
         jQuery.noConflict();
     </script>
@@ -127,7 +127,7 @@ div.page-content.clearfix.above-everything.alert.alert-danger div.main-content {
             <button class="menu_mobile_link" >
                 <i class="fas fa-bars menu_mobile_link_icon"></i>
             </button>
-            <script nonce="8105030f66d704a6aa3a9aa0b0640e987371983909fca0d9faf065549d0aa6e5" type="module" src="/js/d9e869e5164e2fed13f23801dad6f29b/pages/master/nav.js"></script>
+            <script nonce="3789bcc19f6ba8eaa9a5e3025c360a787a3e740753f4097c166e17f11488a60d" type="module" src="/js/3733230c165478d407a7cfc4cc335595/pages/master/nav.js"></script>
         </div>
         <div class="branding_border"></div>
         <div class="page_header-content">
@@ -205,7 +205,7 @@ div.page-content.clearfix.above-everything.alert.alert-danger div.main-content {
 
 
 <div class="top_bar ">
-    <script nonce="8105030f66d704a6aa3a9aa0b0640e987371983909fca0d9faf065549d0aa6e5" type="module" src="/js/d9e869e5164e2fed13f23801dad6f29b/pages/master/top_bar.js"></script>
+    <script nonce="3789bcc19f6ba8eaa9a5e3025c360a787a3e740753f4097c166e17f11488a60d" type="module" src="/js/3733230c165478d407a7cfc4cc335595/pages/master/top_bar.js"></script>
     <div class="branding_border"></div>
             <div class="top_bar-content-wrapper">
             <div class="top_bar-section top_bar-section-large">
@@ -238,7 +238,7 @@ div.page-content.clearfix.above-everything.alert.alert-danger div.main-content {
                                 <span class="tooltip-arrow"></span>
                                 <div class="tooltip-content tooltip-menu tooltip-top_bar">
                                     <i class="fas fa-times tooltip-close tooltip-top_bar-close"></i>
-                                    <a href="/users/king-mcd" class="image_info static_link"><div class="image_info-image-container"><img src="/images/users/king-mcd?v=299a66dd77ad47a37d4710afa74b1aa4"alt="Samuel McDowell"class="image_info-image image_info-image-strip image_info-image-rounded ""/></div><div class="image_info-text-container"><span class="image_info-text-main image_info-text-main-user">Samuel McDowell</span><span class="image_info-text-sub"><ul class="image_info-list-sub"><li>Score: 972.0</li><li>Rank: 693</li></ul></span></div></a>
+                                    <a href="/users/king-mcd" class="image_info static_link"><div class="image_info-image-container"><img src="/images/users/king-mcd?v=299a66dd77ad47a37d4710afa74b1aa4"alt="Samuel McDowell"class="image_info-image image_info-image-strip image_info-image-rounded ""/></div><div class="image_info-text-container"><span class="image_info-text-main image_info-text-main-user">Samuel McDowell</span><span class="image_info-text-sub"><ul class="image_info-list-sub"><li>Score: 1010.6</li><li>Rank: 652</li></ul></span></div></a>
                                     <div class="tooltip-top_bar-item logout-container">
                                         <a href="/logout" class="button button-basic button-block whitespace-nowrap">Log out<i class="fas fa-sign-out-alt button-icon-right"></i></a>
                                     </div>
@@ -289,12 +289,12 @@ div.page-content.clearfix.above-everything.alert.alert-danger div.main-content {
 
 
 
-<script nonce="8105030f66d704a6aa3a9aa0b0640e987371983909fca0d9faf065549d0aa6e5" src="/assets/45ee1c6d5829549ca51118259436e200/moment/min/moment.min.js"></script>
-<script nonce="8105030f66d704a6aa3a9aa0b0640e987371983909fca0d9faf065549d0aa6e5" src="/assets/45ee1c6d5829549ca51118259436e200/bootstrap-daterangepicker/daterangepicker.js"></script>
-<script nonce="8105030f66d704a6aa3a9aa0b0640e987371983909fca0d9faf065549d0aa6e5" src="/assets/45ee1c6d5829549ca51118259436e200/select2/dist/js/select2.full.min.js"></script>
+<script nonce="3789bcc19f6ba8eaa9a5e3025c360a787a3e740753f4097c166e17f11488a60d" src="/assets/45ee1c6d5829549ca51118259436e200/moment/min/moment.min.js"></script>
+<script nonce="3789bcc19f6ba8eaa9a5e3025c360a787a3e740753f4097c166e17f11488a60d" src="/assets/45ee1c6d5829549ca51118259436e200/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script nonce="3789bcc19f6ba8eaa9a5e3025c360a787a3e740753f4097c166e17f11488a60d" src="/assets/45ee1c6d5829549ca51118259436e200/select2/dist/js/select2.full.min.js"></script>
 
 
 
-        <script defer nonce="8105030f66d704a6aa3a9aa0b0640e987371983909fca0d9faf065549d0aa6e5" src="https://status.kattis.com/embed/script.js"></script>
+        <script defer nonce="3789bcc19f6ba8eaa9a5e3025c360a787a3e740753f4097c166e17f11488a60d" src="https://status.kattis.com/embed/script.js"></script>
 </body>
 </html>
