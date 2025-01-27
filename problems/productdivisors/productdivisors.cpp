@@ -1,8 +1,8 @@
-#include <iostream>
-#include <vector>
-#include <set>
-#include <unordered_map>
-#include <cmath>
+#include 
+#include 
+#include 
+#include 
+#include 
 
 using namespace std;
 
@@ -12,7 +12,7 @@ int primes[] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 
     int primeLengtjh = sizeof(primes) / sizeof(primes[0]);
     int cases;
     cin >> cases;
-    unordered_map<int, int> divisors;
+    unordered_map divisors;
     for (int i = 0; i < cases; i ++) {
         int n;
         cin >> n;

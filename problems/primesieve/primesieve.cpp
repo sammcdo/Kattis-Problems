@@ -1,7 +1,7 @@
-#include <iostream>
-#include <cmath>
-#include <bitset>
-#include <vector>
+#include 
+#include 
+#include 
+#include 
 
 using namespace std;
 
@@ -13,7 +13,7 @@ int main() {
 	cin >> high;
 	cin >> cases;
 
-	vector<bool> primes(100000000, true);
+	vector primes(100000000, true);
 	primes[0] = false;
 	primes[1] = false;
 

@@ -1,5 +1,5 @@
-#include <bits/stdc++.h>
-#include <string>
+#include 
+#include 
 
 using namespace std;
 
@@ -10,19 +10,19 @@ using namespace std;
 #define endl '\n'
 #define pi acos(-1.0)
 typedef long long ll;
-template<class T> using V=vector<T>;
-template<class T> using VV=vector<vector<T>>;
-template<class K, class V> using umap=unordered_map<K, V>;
-typedef pair<int, int> pii;
-typedef vector<int> vi;
-typedef unordered_map<int, int> uimap;
+template using V=vector;
+template using VV=vector>;
+template using umap=unordered_map;
+typedef pair pii;
+typedef vector vi;
+typedef unordered_map uimap;
 
 
 int main() {
   int n, m;
-  vector<bitset<1000>> switches;
-  vector<bitset<1000>> lights;
-  vector<bitset<1000>> works;
+  vector> switches;
+  vector> lights;
+  vector> works;
 
   cin >> n >> m;
 
@@ -75,7 +75,7 @@ int main() {
     }
   }
 
-  vector<ll> fact(n+1);
+  vector fact(n+1);
   fact[0] = 1;
   rep(i, 1, n+1) {
     fact[i] = fact[i-1] * i % 1000003;

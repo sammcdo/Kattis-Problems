@@ -1,5 +1,5 @@
-#include <bits/stdc++.h>
-#include <deque>
+#include 
+#include 
 
 using namespace std;
 
@@ -10,12 +10,12 @@ using namespace std;
 #define endl '\n'
 #define pi acos(-1.0)
 typedef long long ll;
-template<class T> using V=vector<T>;
-template<class T> using VV=vector<vector<T>>;
-template<class K, class V> using umap=unordered_map<K, V>;
-typedef pair<int, int> pii;
-typedef vector<int> vi;
-typedef unordered_map<int, int> uimap;
+template using V=vector;
+template using VV=vector>;
+template using umap=unordered_map;
+typedef pair pii;
+typedef vector vi;
+typedef unordered_map uimap;
 
 using namespace std;
 
@@ -29,7 +29,7 @@ int bfs(int s, int t, int nodes) {
     for (int i = 0; i < nodes; i++) {
         parent[i] = -1;
     }
-    deque<pii> q;
+    deque q;
     q.push_back(make_pair(s, INF));
     parent[s] = 0;
     while (!q.empty()) {
@@ -96,8 +96,8 @@ int main() {
 
 
 
-        V<pii> matches;
-        V<pii> matchesLeft;
+        V matches;
+        V matchesLeft;
         int myMaxScore = scores[n-1];
         int myTeam = n-1;
 

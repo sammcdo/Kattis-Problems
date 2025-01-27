@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include 
 
 using namespace std;
 
@@ -9,13 +9,13 @@ using namespace std;
 #define endl '\n'
 #define pi acos(-1.0)
 typedef long long ll;
-template<typename T> using V=vector<T>;
-template<typename T> using VV=vector<vector<T>>;
-typedef pair<int, int> pii;
-typedef vector<int> vi;
-typedef unordered_map<int, int> uimap;
+template using V=vector;
+template using VV=vector>;
+typedef pair pii;
+typedef vector vi;
+typedef unordered_map uimap;
 
-int walk(int node, unordered_map<int, vi>& tree, int (&visited)[], deque<char>& str_stack, string& values, int status) {
+int walk(int node, unordered_map& tree, int (&visited)[], deque& str_stack, string& values, int status) {
     int count = 0;
 
     if (visited[node] > status) {
@@ -78,7 +78,7 @@ int main() {
     string x;
     cin >> x;
 
-    unordered_map<int, vi> tree;
+    unordered_map tree;
 
     For(i, n-1) {
         int a, b;
@@ -91,7 +91,7 @@ int main() {
     int count = 0;
     int visited[500001] = {0};
     For(i, n) {
-        deque<char> str_stack;
+        deque str_stack;
         int v = walk(i, tree, visited, str_stack, x, i);
         if (v != -1)
             count += v;

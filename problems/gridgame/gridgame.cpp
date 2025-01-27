@@ -1,7 +1,7 @@
-#include <bits/stdc++.h>
-#include <vector>
-#include <unordered_map>
-#include <queue>
+#include 
+#include 
+#include 
+#include 
 
 using namespace std;
 
@@ -12,21 +12,21 @@ using namespace std;
 #define endl '\n'
 #define pi acos(-1.0)
 typedef long long ll;
-template <class T>
-using V = vector<T>;
-template <class T>
-using VV = vector<vector<T>>;
-template <class K, class V>
-using umap = unordered_map<K, V>;
-typedef pair<int, int> pii;
-typedef vector<int> vi;
-typedef unordered_map<int, int> uimap;
+template 
+using V = vector;
+template 
+using VV = vector>;
+template 
+using umap = unordered_map;
+typedef pair pii;
+typedef vector vi;
+typedef unordered_map uimap;
 
 int graph[62][62], rgraph[62][62], prevs[62];
 int inf = 10000007;
 
 bool bfs(int source, int sink, int a) {
-    queue<int> q;
+    queue q;
     q.push(source);
     while (q.size()) {
         int curr = q.front();

@@ -49,8 +49,8 @@ for problem in stats:
             print(problem["id"])
             solutionFilename = problem["id"]+extensions[problem["language"]]
             with open(path+"/"+solutionFilename, 'w') as obj:
-                code = kt.get(problem["link"]+"/source/"+solutionFilename)
-                code = code.content.decode()
+                code = kt.get_soup_response(problem["link"]+"/source/"+solutionFilename)
+                code = code.find('p').get_text()
                 obj.write(code)
 
             target = problem["id"]

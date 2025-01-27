@@ -1,4 +1,4 @@
-# Arrangement
+# Uppröðun
 
 <table>
     <tr>
@@ -11,7 +11,7 @@
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>69.76 %</td>
+        <td>69.42 %</td>
     </tr>
     <tr>
         <td>Link</td>

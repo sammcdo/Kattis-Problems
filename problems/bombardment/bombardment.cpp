@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include 
 
 using namespace std;
 
@@ -7,16 +7,16 @@ using namespace std;
 #define sort_desc(x) sort(x.rbegin(), x.rend())
 #define sz(x) (int)(x).size()
 #define endl '\n'
-template <typename T>
-using V = vector<T>;
-template <typename T>
-using VV = vector<vector<T>>;
+template 
+using V = vector;
+template 
+using VV = vector>;
 typedef long long ll;
 typedef long double ld;
-typedef pair<int, int> pii;
-typedef vector<int> vi;
-typedef vector<ll> vll;
-typedef unordered_map<int, int> uimap;
+typedef pair pii;
+typedef vector vi;
+typedef vector vll;
+typedef unordered_map uimap;
 
 
 int main() {
@@ -36,7 +36,7 @@ int main() {
             data[x-r] = 0;
     }
 
-    V<pii> points;
+    V points;
     int total = 0;
 
     for (pii p : data) {

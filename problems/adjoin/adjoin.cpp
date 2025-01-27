@@ -1,7 +1,7 @@
-#include <bits/stdc++.h>
-#include <vector>
-#include <unordered_map>
-#include <deque>
+#include 
+#include 
+#include 
+#include 
 
 using namespace std;
 
@@ -12,28 +12,28 @@ using namespace std;
 #define endl '\n'
 #define pi acos(-1.0)
 typedef long long ll;
-template <class T>
-using V = vector<T>;
-template <class T>
-using VV = vector<vector<T>>;
-template <class K, class V>
-using umap = unordered_map<K, V>;
-typedef pair<int, int> pii;
-typedef vector<int> vi;
-typedef unordered_map<int, int> uimap;
+template 
+using V = vector;
+template 
+using VV = vector>;
+template 
+using umap = unordered_map;
+typedef pair pii;
+typedef vector vi;
+typedef unordered_map uimap;
 
 // for each tree in forest, find center
 // connect centers
 // find diameter of final tree
 
 // dfs reusing visited, parent and depth
-pii dfs(unordered_map<int, vi> &graph,
-        vector<int> &visited,
-        vector<int> &parent, 
-        vector<int> &dist,
+pii dfs(unordered_map &graph,
+        vector &visited,
+        vector &parent, 
+        vector &dist,
         int a, int visitNum)
 {
-  deque<pii> s;
+  deque s;
   s.push_back(make_pair(a, 0));
   int depth = 0;
   int farthest = a;
@@ -74,7 +74,7 @@ int main()
 
   cin >> n >> e;
 
-  unordered_map<int, vi> graph;
+  unordered_map graph;
 
   // make graph
   For(i, e)
@@ -86,10 +86,10 @@ int main()
     graph[b].push_back(a);
   }
 
-  vector<int> visited(n);
-  vector<int> parent(n);
-  vector<int> dist(n);
-  vector<pii> diams;
+  vector visited(n);
+  vector parent(n);
+  vector dist(n);
+  vector diams;
   int counter = 1;
   int total = 0;
 
@@ -124,7 +124,7 @@ int main()
   }
 
   // always best to have the center of the largest tree as the center
-  sort(diams.begin(), diams.end(), greater<pii>());
+  sort(diams.begin(), diams.end(), greater());
   int center = diams[0].second;
   rep(i, 1, diams.size())
   {

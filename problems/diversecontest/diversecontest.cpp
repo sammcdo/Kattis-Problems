@@ -1,5 +1,5 @@
-#include <bits/stdc++.h>
-#include <string>
+#include 
+#include 
 
 using namespace std;
 
@@ -10,37 +10,24 @@ using namespace std;
 #define endl '\n'
 #define pi acos(-1.0)
 typedef long long ll;
-template<class T> using V=vector<T>;
-template<class T> using VV=vector<vector<T>>;
-template<class K, class V> using umap=unordered_map<K, V>;
-typedef pair<int, int> pii;
-typedef vector<int> vi;
-typedef unordered_map<int, int> uimap;
+template using V=vector;
+template using VV=vector>;
+template using umap=unordered_map;
+typedef pair pii;
+typedef vector vi;
+typedef unordered_map uimap;
 
-void find_permuts(int n, int m, VV<string>& problems, VV<int>& permuts) {
-   rep(i, 0, 1<<n) {
-    if (__builtin_popcount(i) == m) {
-      V<int> temp;
+void find_permuts(int n, int m, VV& problems, VV& permuts) {
+   rep(i, 0, 1< temp;
       for (int j = 0; j < n; j++) {
-        int x = 1<<j;
-        if (i & x) {
-          temp.push_back(j);
-        }
-      }
-      permuts.push_back(temp);
-    }
-   }
-}
-
-int main() {
-  // cin.tie(0)->sync_with_stdio(0);
+        int x = 1<sync_with_stdio(0);
   int n, m;
 
   cin >> n >> m;
 
-  VV<string> problems(n);
+  VV problems(n);
 
-  VV<int> permuts;
+  VV permuts;
   
   rep(i, 0, n) {
     int x;
@@ -56,7 +43,7 @@ int main() {
 
   int count = 0;
   rep(i, 0, permuts.size()) {
-    umap<string, int> table;
+    umap table;
     for (int k : permuts[i]) {
       for (string x : problems[k]) {
         if (table.find(x) == table.end()) {

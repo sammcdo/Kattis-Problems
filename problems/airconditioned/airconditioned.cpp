@@ -1,5 +1,5 @@
-#include <bits/stdc++.h>
-#include <vector>
+#include 
+#include 
 
 using namespace std;
 
@@ -10,12 +10,12 @@ using namespace std;
 #define endl '\n'
 #define pi acos(-1.0)
 typedef long long ll;
-template<class T> using V=vector<T>;
-template<class T> using VV=vector<vector<T>>;
-template<class K, class V> using umap=unordered_map<K, V>;
-typedef pair<int, int> pii;
-typedef vector<int> vi;
-typedef unordered_map<int, int> uimap;
+template using V=vector;
+template using VV=vector>;
+template using umap=unordered_map;
+typedef pair pii;
+typedef vector vi;
+typedef unordered_map uimap;
 
 bool sort_(const pii& a, const pii& b) {
   return (a.second < b.second);
@@ -27,7 +27,7 @@ int main() {
 
   cin >> n;
 
-  vector<pii> minions;
+  vector minions;
 
   For(i, n) {
     int a,b;
@@ -36,7 +36,7 @@ int main() {
     minions.push_back(pii(a,b));
   }
 
-  vector<pii> rooms;
+  vector rooms;
 
   sort(minions.begin(), minions.end(), sort_);
 

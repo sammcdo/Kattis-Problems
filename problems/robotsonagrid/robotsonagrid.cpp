@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include 
 
 using namespace std;
 
@@ -6,19 +6,19 @@ using namespace std;
 #define sort_desc(x) sort(x.rbegin(), x.rend())
 #define sz(x) (int)(x).size()
 #define endl '\n'
-template<typename T> using V=vector<T>;
-template<typename T> using VV=vector<vector<T>>;
+template using V=vector;
+template using VV=vector>;
 typedef long long ll;
 typedef long double ld;
-typedef pair<int, int> pii;
-typedef vector<int> vi;
-typedef vector<ll> vll;
-typedef unordered_map<int, int> uimap;
+typedef pair pii;
+typedef vector vi;
+typedef vector vll;
+typedef unordered_map uimap;
 
 
 ll MOD = pow(2, 31) - 1;
 
-ll dfs_d_r(VV<char>& grid, VV<ll>& dp, pii coords) {
+ll dfs_d_r(VV& grid, VV& dp, pii coords) {
     int size = grid.size();
     int x = coords.first;
     int y = coords.second;
@@ -33,7 +33,7 @@ ll dfs_d_r(VV<char>& grid, VV<ll>& dp, pii coords) {
     return dp[y][x];
 }
 
-void dfs_all(VV<char>& grid, pii coords) {
+void dfs_all(VV& grid, pii coords) {
     int size = grid.size();
     int x = coords.first;
     int y = coords.second;
@@ -43,7 +43,7 @@ void dfs_all(VV<char>& grid, pii coords) {
     grid[y][x] = '#';
     if (x == size - 1 && y == size - 1) return;
 
-    V<pii> directions = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
+    V directions = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
     for (auto& direction : directions) {
         dfs_all(grid, {x + direction.first, y + direction.second});
     }
@@ -55,7 +55,7 @@ int main() {
     
     int size;
     cin >> size;
-    VV<char> grid(size, V<char>(size));
+    VV grid(size, V(size));
     
     rep(i, 0, size) {
         rep(j, 0, size) {
@@ -63,7 +63,7 @@ int main() {
         }
     }
 
-    VV<ll> dp(size, V<ll>(size, -1));
+    VV dp(size, V(size, -1));
 
     dp[size - 1][size - 1] = 1;
     ll result = dfs_d_r(grid, dp, {0, 0});

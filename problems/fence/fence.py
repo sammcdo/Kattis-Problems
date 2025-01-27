@@ -53,18 +53,7 @@ while 1:
 
     best = float('inf')
 
-    for i in range(1<<n):
-        this = []
-        wood = 0
-        cost = 0
-        for j in range(n):
-            if 1<<j & i:
-                this.append(trees[j])
-            else:
-                cost += trees[j][2]
-                wood += trees[j][3]
-        perim = polygon_perimeter(convex_hull(this))
-        if wood >= perim:
+    for i in range(1<= perim:
             # print("\t", perim, wood, cost)
             best = min(best, cost)
     

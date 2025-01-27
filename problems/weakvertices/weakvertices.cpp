@@ -1,7 +1,7 @@
-#include <iostream>
-#include <unordered_set>
-#include <vector>
-#include <bits/stdc++.h>
+#include 
+#include 
+#include 
+#include 
 
 using namespace std;
 
@@ -11,10 +11,10 @@ int main() {
     
     while (n != -1) {
         
-        vector<vector<int>> graph;
+        vector> graph;
         
         for (int i = 0; i < n; i++) {
-            vector<int> tmp;
+            vector tmp;
             for (int j = 0; j < n; j++) {
                 int x;
                 cin >> x;
@@ -23,20 +23,20 @@ int main() {
             graph.push_back(tmp);
         }
         
-        unordered_set<int> failed;
+        unordered_set failed;
         
         for (int start = 0; start < n; start++) {
             
             bool found = false;
             
-            unordered_set<int> options1;
+            unordered_set options1;
             for (int second = 0; second < n; second++) {
                 if (graph[start][second]) {
                     options1.emplace(second);
                 }
             }
             
-            unordered_set<int> options2;
+            unordered_set options2;
             for (auto second : options1) {
                 for (int third = 0; third < n; third++) {
                     if (graph[second][third]) {
@@ -58,7 +58,7 @@ int main() {
             
         }
         
-        vector<int> output;
+        vector output;
             for (auto i : failed) {
                 output.push_back(i);
             }

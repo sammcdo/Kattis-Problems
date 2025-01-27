@@ -1,11 +1,11 @@
-#include <iostream>
-#include <unordered_map>
-#include <string>
+#include 
+#include 
+#include 
 
 using namespace std;
 
 int main() {
-    unordered_map<string, int> memory;
+    unordered_map memory;
     
     string nextCommand;
     

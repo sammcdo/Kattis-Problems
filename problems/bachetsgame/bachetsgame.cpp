@@ -1,6 +1,6 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
+#include 
+#include 
+#include 
 
 using namespace std;
 
@@ -9,7 +9,7 @@ int main() {
     
     while (cin >> n >> m) {
         int dp[1000002] = {0};
-        vector<int> moves;
+        vector moves;
         for (int i = 0; i < m; i++) {
             int a;
             cin >> a;

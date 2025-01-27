@@ -1,16 +1,16 @@
-#include <iostream>
-#include <vector>
+#include 
+#include 
 
 using namespace std;
 
-void count_stars(vector<string>& grid, vector<vector<bool>>& visited, int start_x, int start_y);
+void count_stars(vector& grid, vector>& visited, int start_x, int start_y);
 
 int main() {
     int height, width;
 
     int case_no = 1;
     while (cin >> height >> width) {
-        vector<string> grid;
+        vector grid;
 
         for (int i = 0; i < height; i++) {
             string x;
@@ -18,7 +18,7 @@ int main() {
             grid.push_back(x);
         }
 
-        vector<vector<bool>> visited(height, vector<bool>(width, false));
+        vector> visited(height, vector(width, false));
         int stars = 0;
         
         for (int i = 0; i < height; i++) {
@@ -37,7 +37,7 @@ int main() {
     return 0;
 }
 
-void count_stars(vector<string>& grid, vector<vector<bool>>& visited, int start_x, int start_y) {
+void count_stars(vector& grid, vector>& visited, int start_x, int start_y) {
     if (start_x < 0 || start_y < 0 || start_y >= grid.size() ||
         start_x >= grid[0].length() || visited[start_y][start_x] ||
         grid[start_y][start_x] == '#') {

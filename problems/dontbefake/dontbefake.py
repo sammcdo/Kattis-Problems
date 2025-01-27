@@ -1,5 +1,3 @@
-
-
 n = int(input())
 
 

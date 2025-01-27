@@ -1,7 +1,7 @@
-#include <bits/stdc++.h>
-#include <vector>
-#include <unordered_map>
-#include <queue>
+#include 
+#include 
+#include 
+#include 
 
 using namespace std;
 
@@ -12,15 +12,15 @@ using namespace std;
 #define endl '\n'
 #define pi acos(-1.0)
 typedef long long ll;
-template <class T>
-using V = vector<T>;
-template <class T>
-using VV = vector<vector<T>>;
-template <class K, class V>
-using umap = unordered_map<K, V>;
-typedef pair<int, int> pii;
-typedef vector<int> vi;
-typedef unordered_map<int, int> uimap;
+template 
+using V = vector;
+template 
+using VV = vector>;
+template 
+using umap = unordered_map;
+typedef pair pii;
+typedef vector vi;
+typedef unordered_map uimap;
 
 int flips[][5] = {
     {0,1,3,9,9},
@@ -47,14 +47,14 @@ int main() {
     int counts;
     cin >> counts;
 
-    unordered_map<string, int> maps;
+    unordered_map maps;
 
     maps["........."] = 0;
 
-    queue<pair<string, int>> q;
+    queue> q;
     q.push(make_pair(".........", 0));
     while (q.size()) {
-        pair<string, int> curr = q.front();
+        pair curr = q.front();
         q.pop();
         For(i, 9) {
             string next = curr.first;

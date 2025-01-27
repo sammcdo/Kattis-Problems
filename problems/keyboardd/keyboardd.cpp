@@ -1,6 +1,6 @@
-#include <iostream>
-#include <unordered_set>
-#include <string>
+#include 
+#include 
+#include 
 
 using namespace std;
 
@@ -14,7 +14,7 @@ int main() {
     good = good + " ";
     bad = bad + " ";
     
-    unordered_set<char> sticky;
+    unordered_set sticky;
     
     int b = 0;
     for (int i = 0; i < good.length(); i++) {

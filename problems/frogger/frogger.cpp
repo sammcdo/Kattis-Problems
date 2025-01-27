@@ -1,8 +1,8 @@
-#include <bits/stdc++.h>
-#include <vector>
-#include <unordered_map>
-#include <queue>
-#include <deque>
+#include 
+#include 
+#include 
+#include 
+#include 
 
 using namespace std;
 
@@ -13,15 +13,15 @@ using namespace std;
 #define endl '\n'
 #define pi acos(-1.0)
 typedef long long ll;
-template <class T>
-using V = vector<T>;
-template <class T>
-using VV = vector<vector<T>>;
-template <class K, class V>
-using umap = unordered_map<K, V>;
-typedef pair<int, int> pii;
-typedef vector<int> vi;
-typedef unordered_map<int, int> uimap;
+template 
+using V = vector;
+template 
+using VV = vector>;
+template 
+using umap = unordered_map;
+typedef pair pii;
+typedef vector vi;
+typedef unordered_map uimap;
 
 int main() {
     int c;
@@ -35,9 +35,9 @@ int main() {
         cin >> lanecount >> lanelen;
         lanecount+=2;
 
-        vector<deque<char>> lanes;
+        vector> lanes;
         For(i, lanecount) {
-            deque<char> curr;
+            deque curr;
             char temp;
             For(j, lanelen) {
                 cin >> temp;
@@ -47,8 +47,8 @@ int main() {
         }
         
         int finishInd = 0;
-        VV<bool> possible(lanecount, V<bool>(lanelen, 0));
-        VV<bool> next(lanecount, V<bool>(lanelen, 0));
+        VV possible(lanecount, V(lanelen, 0));
+        VV next(lanecount, V(lanelen, 0));
 
         For(i, lanelen){
             if (lanes[lanecount-1][i] == 'F') {

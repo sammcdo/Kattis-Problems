@@ -1,12 +1,12 @@
-#include <iostream>
-#include <vector>
-#include <bits/stdc++.h>
+#include 
+#include 
+#include 
 
 using namespace std;
 
 int main() {
     int count;
-    vector<int> items;
+    vector items;
 
     cin >> count;
 

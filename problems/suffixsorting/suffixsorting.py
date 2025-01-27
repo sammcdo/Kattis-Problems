@@ -32,45 +32,4 @@ def makeSuffixArray(string):
             break
 
         for i in range(n):
-            pn[i] = p[i] - (1<<h)
-            if pn[i] < 0:
-                pn[i] += n
-        
-        for i in range(classes):
-            cnt[i] = 0
-
-        for i in range(n):
-            cnt[c[pn[i]]] += 1
-        
-        for i in range(1, classes):
-            cnt[i] += cnt[i-1]
-        
-        for i in range(n-1, -1, -1):
-            cnt[c[pn[i]]] -= 1
-            x = cnt[c[pn[i]]]
-            p[x] = pn[i]
-        
-        cn[p[0]] = 0
-        classes = 1
-        for i in range(1, n):
-            curr = (c[p[i]], c[(p[i] + (1<<h)) % n])
-            prev = (c[p[i-1]], c[(p[i-1] + (1<<h)) % n])
-            if curr != prev:
-                classes += 1
-            cn[p[i]] = classes - 1
-        
-        c, cn = cn, c
-    return p
-
-while True:
-    try:
-        word = input().strip()
-        queries = list(map(int, input().split()))[1::]
-
-        p = makeSuffixArray(word)
-
-        for i in queries:
-            print(p[i+1], end=" ")
-        print()
-    except:
-        break
+            pn[i] = p[i] - (1<

@@ -25,9 +25,4 @@ for i in x(0,len(d)):
                 c[d[s]]-=1
             s+=1
         z=i-s+1
-        if z<l:
-            l=z
-if l==n+1:
-    p("impossible")
-else:
-    p(l)
+        if z
