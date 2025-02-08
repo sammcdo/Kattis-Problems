@@ -53,11 +53,16 @@ with open("README.md", 'w') as obj:
     obj.write(table)
     problems.sort(key=lambda x: x["difficulty"])
     hard = []
+    s = 0
     for p in problems:
+        s += p["difficulty"]
         if p["difficulty"] >= 5.5:
             hard.append(p)
         # p["name"] = p["name"].decode('utf-8')
         obj.write(tableFormat.format(**p))
+    
+    s /= len(problems)
 
 print("TOTAL NUMBER OF HARD PROBLEMS:", len(hard))
+print("AVERAGE PROBLEM DIFFICULTY:", s)
 

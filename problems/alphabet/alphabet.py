@@ -1,16 +1,15 @@
-def lis(nums):
-   import bisect
-   n = len(nums)
-   ans = [nums[0]]
-   for i in range(1, n):
-       if nums[i] > ans[-1]:
-           ans.append(nums[i])
-       else:
-           x = bisect.bisect_left(ans, nums[i])
-           ans[x] = nums[i]
-   return len(ans)
+main = "abcdefghijklmnopqrstuvwxyz"
+alt = input()
 
-word = input()
-correct = "abcdefghijklmnopqrstuvwxyz"
+# find LCS
 
-print(26-lis(word))
+dp = [[0]*(len(main)+1) for i in range(len(alt)+1)]
+
+for i in range(len(alt)):
+    for j in range(len(main)):
+        if alt[i] == main[j]:
+            dp[i+1][j+1] = 1 + dp[i][j]
+        else:
+            dp[i+1][j+1] = max(dp[i+1][j], dp[i][j+1])
+
+print(26-dp[-1][-1])
