@@ -27,17 +27,19 @@ int main() {
   V> counts(n);
 
   stack s;
+  // string s = "";
   
 
-  // count the spaces and indent level
+
   For(i, n) {
     string temp;
     cin >> temp;
     
     char x = temp.back();
+    // cout << x << endl;
     temp.pop_back();
 
-    // increase or decrease indent at position i
+    
     if (x == '{') {
       indents[i] = s.size();
       s.push(1);
@@ -47,7 +49,7 @@ int main() {
 
     }
 
-    // count tabs and spaces at i
+
     int spaces = 0;
     int tabs = 0;
     For(j, temp.size()) {
@@ -62,17 +64,21 @@ int main() {
 
   }
 
-  // worst case is 1 tab is worth 999 spaces
+  // For(i, n) {
+  //   cout << i << " " << indents[i] << " " << counts[i].first << " " << counts[i].second << endl;
+  // }
+
   rep(i, 1, 1000) {
     bool works = true;
     int guess = -1;
-
-    // check if each line would be valid for this tab value (i)
+    // cout << i << endl;
     For(j, n) {
+      // cout << "J" << j << endl;
       int tabs = counts[j].first;
       int spaces = counts[j].second;
       int indent = indents[j];
       int total = spaces + (tabs * i);
+      // cout << total << endl;
 
       if (indent == 0 || total % indent != 0 || (guess != -1 && total / indent != guess)) {
         if (indent == 0 && total == 0) {
