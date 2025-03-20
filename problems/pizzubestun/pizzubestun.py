@@ -1,16 +1,24 @@
 import heapq
 
-heap = []
+n = int(input())
 
-for i in range(int(input())):
-    x = int(input().split()[1])
-    heapq.heappush(heap, -x)
+pizzas = []
+heapq.heapify(pizzas)
 
-sum = 0
-while len(heap) > 1:
-    sum += heapq.heappop(heap)
-    heapq.heappop(heap)
-if len(heap) == 1:
-    sum += heapq.heappop(heap)
+for i in range(n):
+    name, cost = input().split()
+    cost = int(cost)
+    
+    heapq.heappush(pizzas, -cost)
 
-print(-sum)
+# print(pizzas)
+
+totalCost = 0
+while len(pizzas) > 1:
+    first = heapq.heappop(pizzas)
+    second = heapq.heappop(pizzas)
+    totalCost += -first
+if len(pizzas) == 1:
+    totalCost += -pizzas[0]
+
+print(totalCost)

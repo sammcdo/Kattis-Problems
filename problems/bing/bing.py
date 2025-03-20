@@ -1,4 +1,5 @@
 class Trie:
+    # __slots__=["children", "value", "isWord"]
     def __init__(self):
         self.children = {}
 
@@ -26,6 +27,8 @@ class Trie:
             current = current[ord(char)]
             if rev:
                 t = char + t
+
+        # print(prefix, t)
 
         # Step 2
         if rev:

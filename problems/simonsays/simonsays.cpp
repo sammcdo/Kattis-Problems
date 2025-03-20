@@ -4,16 +4,16 @@
 using namespace std;
 
 int main() {
-    int steps;
+    int n;
     
-    cin >> steps;
+    cin >> n;
     cin.ignore();
     
-    for (int i = 0; i < steps; i++) {
+    for (int i = 0; i < n; i++) {
         string command;
         getline(cin, command);
         if (command.rfind("Simon says ", 0) == 0) {
-            cout << command.substr(11, command.length()-11) << endl;
+            cout << command.substr(10, command.length()-10) << endl;
         }
     }
     
