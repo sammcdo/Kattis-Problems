@@ -1,7 +1,4 @@
-string = input()
+w = [i[0] for i in input().split("-")]
 
-string = string.upper().split("-")
-
-string = [x[0] for x in string]
-
-print("".join(string))
+for i in w:
+    print(i, end="")

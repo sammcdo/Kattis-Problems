@@ -1,1 +1,1 @@
-print(int(bin(int(input()))[2:][::-1],2))
+print(int(str(bin(int(input())))[2:][::-1], base=2))

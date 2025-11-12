@@ -1,25 +1,25 @@
-g, n = map(int, input().split())
+minT, n = map(int, input().split())
 
-opts = [[int(i) for i in input().split()] for j in range(n)]
+tasks = [[int(i) for i in input().split()] for _ in range(n)]
+tasks.sort()
 
-opts.sort()
+dp = [0 for _ in range(24001)]
 
-dp = [0 for i in range(24001)]
-
-for i in range(n):
-    start = opts[i][0]
-    end = opts[i][1]
+for i in range(len(tasks)):
+    start = tasks[i][0]
+    end = tasks[i][1]
 
     dp[end] = dp[start] + 1
 
-    x = len(dp)
-    if i < len(opts) - 1:
-        x = opts[i + 1][0] + 1
-
-    for j in range(end + 1, x):
+    # fill forward
+    nextPos = len(dp)
+    if i < len(tasks)-1:
+        nextPos = tasks[i+1][0]+1
+    
+    for j in range(end, nextPos):
         dp[j] = dp[end]
 
-if g <= dp[-1]:
+if minT <= dp[-1]:
     print("YES")
 else:
     print("NO")

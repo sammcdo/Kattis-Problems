@@ -1,5 +1,5 @@
 import math
 
-a, b = map(int, input().split())
+a,b = map(int, input().split())
 
-print(math.gcd(a, b))
+print(math.gcd(a,b))

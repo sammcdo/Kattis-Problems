@@ -11,7 +11,7 @@
     </tr>
     <tr>
         <td>Acceptance</td>
-        <td>55.21 %</td>
+        <td>94.47 %</td>
     </tr>
     <tr>
         <td>Link</td>
