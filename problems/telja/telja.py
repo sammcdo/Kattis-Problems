@@ -1,1 +1,2 @@
-print(*list(range(1,int(input())+1)),sep="\n")
+for i in range(1,int(input())+1):
+    print(i)

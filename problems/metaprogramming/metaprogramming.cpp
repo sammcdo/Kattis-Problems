@@ -5,39 +5,41 @@
 using namespace std;
 
 int main() {
-    unordered_map memory;
-    
+    unordered_map codes;
+
     string nextCommand;
-    
+
     while (cin >> nextCommand) {
         if (nextCommand == "define") {
             string key;
-            int value;
-            cin >> value >> key;
-            memory[key] = value;
-        }
+            int val;
+
+            cin >> val >> key;
+            codes[key] = val;
+        } 
         else {
             string a, b, op;
             cin >> a >> op >> b;
-            
-            if (memory.find(a) == memory.end() || 
-            memory.find(b) == memory.end()) {
+
+            if (codes.find(a)== codes.end() || codes.find(b) == codes.end()) {
                 cout << "undefined" << endl;
                 continue;
             }
-            
-            int x = memory[a];
-            int y = memory[b];
-            
+
+            int x = codes[a];
+            int y = codes[b];
+
             if (op == ">") {
                 cout << ((x > y) ? "true" : "false") << endl;
             } else if (op == "<") {
                 cout << ((x < y) ? "true" : "false") << endl;
-            } else {
+            }
+            else {
                 cout << ((x == y) ? "true" : "false") << endl;
             }
         }
     }
+
     
     return 0;
 }
